@@ -17,3 +17,24 @@ Skills: ${skills.join(", ")}
 Available for work: ${IsAvailableForWork}
 `
 )
+// End of practice.js
+
+const greet = () => 'Hello, World!';
+console.log(greet());
+
+const bill =(products, tax) => {
+    let total = 0;
+    for(let i = 0; i < products.length; i++){
+        total += products[i] + products[i] * tax;
+    }   
+    return total;}
+    let number = 10;
+    if (number > 0) {
+        console.log(`${number} is a positive number.`);
+    } else if (number < 0) {
+        console.log(`${number} is a negative number.`);
+    } else {
+        console.log("The number is zero.");
+    };
+ 
+    
